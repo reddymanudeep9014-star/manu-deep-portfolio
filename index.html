@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manu Deep | Portfolio</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f2f6fb;
+    color: #222;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #0066ff, #00a8ff);
+    color: white;
+    text-align: center;
+    padding: 55px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav {
+    background: #111827;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+section {
+    background: white;
+    margin-bottom: 25px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+section h2 {
+    color: #0066ff;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #0066ff;
+    padding-bottom: 8px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skill {
+    background: #e0f2fe;
+    color: #0369a1;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.project {
+    background: #f8fafc;
+    padding: 18px;
+    margin-top: 15px;
+    border-left: 5px solid #0066ff;
+    border-radius: 8px;
+}
+
+.project h3 {
+    color: #0066ff;
+    margin-bottom: 5px;
+}
+
+.contact a {
+    color: #0066ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 32px;
+    }
+
+    nav a {
+        margin: 0 7px;
+        font-size: 14px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Manu Deep</h1>
+    <p>B.Tech Student | Computer Science & Artificial Intelligence</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Hello! I am Manu Deep, a B.Tech student interested in
+        Computer Science, Programming and Artificial Intelligence.
+        I am learning new technologies and developing useful projects.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skills">
+        <div class="skill">Python</div>
+        <div class="skill">C Programming</div>
+        <div class="skill">HTML</div>
+        <div class="skill">Artificial Intelligence</div>
+        <div class="skill">Computer Programming</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project">
+        <h3>Hand Gesture Recognition</h3>
+        <p>
+            A project that uses hand gestures to interact with
+            a computer system.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>Personal Portfolio Website</h3>
+        <p>
+            A personal website created using HTML and CSS
+            to showcase my skills and projects.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>Digital Technology Project</h3>
+        <p>
+            A project related to digital technology and
+            communication systems.
+        </p>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+</section>
+
+</div>
+
+<footer>
+    <p>© 2026 Manu Deep | Personal Portfolio</p>
+</footer>
+
+</body>
+</html>
