@@ -23,3 +23,5 @@ This is my personal portfolio website created as part of my B.Tech website devel
 
 ## Author
 Manu Deep
+
+portfolio website development update
